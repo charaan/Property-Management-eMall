@@ -1,7 +1,8 @@
 @charset "ISO-8859-1";
 body.signin-body{
-	background-img: assets/mall4.jpg";
-	
+	background-image: url("assets/mall4.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 .container.signin-container{

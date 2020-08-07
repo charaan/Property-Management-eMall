@@ -1,7 +1,8 @@
 @charset "ISO-8859-1";
 body.signin-body{
-	background-img: assets/mall4.jpg";
-	
+	background-image: url("assets/mall4.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 .container.signin-container{
@@ -42,7 +43,7 @@ a.create-new-account{
 	font-size:1.2rem;
 	text-align: center;
 	display: block;
-	mardin-top: 15px;
+	margin-top: 15px;
 	color: red;
 	font-weight: strong;
 }
@@ -55,6 +56,56 @@ ul.main-nav{
 	text-align: center;
 }
 
+.sectionLight{
+	background-color: #eceeef;
+	padding: 2em;
+}
+
+.sectionDark{
+	background-color: #cccccc;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.forBrochure{
+	margin-top:20px;
+}
+
+button.forBrochureBtn{
+	background-color: red;
+	color:white;
+	display:block;
+	margin:auto;
+}
+
+h5.modal-title{
+	margin: auto;
+}
+
+img.modal-img{
+	display:block;
+	margin:auto;
+}
+
+.modalForm{
+	padding: 2rem;
+}
+
+.pricingHead{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	font-weight: thicker;
+	text-align: center;
+}
+
+.pricingTable{
+	margin-bottom:4rm;
+	margin-top:2rem;
+}
+
+.pricingcontainer h3{
+	text-decoration: underline;
+}
 
 
 
@@ -75,4 +126,20 @@ ul.main-nav{
 
 
 
+
+
+a.whats-app-icon img {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 80px;
+    z-index: 2001;
+}
+
+@media screen and (max-width: 700px) {
+
+a.whats-app-icon img {
+        width: 50px;
+    }
+}
 
